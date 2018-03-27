@@ -9,6 +9,7 @@
         <module name="spring.ioc01" />
         <module name="spring.ioc02" />
         <module name="spring.ioc03" />
+        <module name="spring.ioc04" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="spring.ioc01" target="1.5" />
       <module name="spring.ioc02" target="1.5" />
       <module name="spring.ioc03" target="1.5" />
+      <module name="spring.ioc04" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
