@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring.aop" />
+        <module name="spring.data.jdbc" />
         <module name="spring.ioc01" />
         <module name="spring.ioc02" />
         <module name="spring.ioc03" />
@@ -14,13 +15,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring.aop" target="1.5" />
+      <module name="spring.aop" target="1.8" />
       <module name="spring.aop01" target="1.5" />
-      <module name="spring.ioc.root" target="1.5" />
-      <module name="spring.ioc01" target="1.5" />
-      <module name="spring.ioc02" target="1.5" />
-      <module name="spring.ioc03" target="1.5" />
-      <module name="spring.ioc04" target="1.5" />
+      <module name="spring.data.jdbc" target="1.8" />
+      <module name="spring.ioc.root" target="1.8" />
+      <module name="spring.ioc01" target="1.8" />
+      <module name="spring.ioc02" target="1.8" />
+      <module name="spring.ioc03" target="1.8" />
+      <module name="spring.ioc04" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
