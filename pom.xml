@@ -15,12 +15,14 @@
         <module>spring.ioc02</module>
         <module>spring.ioc03</module>
         <module>spring.ioc04</module>
+        <module>spring.aop</module>
     </modules>
 
     <!-- 变量 -->
     <properties>
         <spring.version>5.0.4.RELEASE</spring.version>
         <junit.version>4.12</junit.version>
+        <aspectj.version>1.9.0</aspectj.version>
     </properties>
 
     <!-- 在顶级项目 root 中描述共通性依赖 -->
@@ -28,6 +30,27 @@
     <dependencyManagement>
 
         <dependencies>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aop</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjrt -->
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjrt</artifactId>
+                <version>${aspectj.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>${aspectj.version}</version>
+            </dependency>
+
 
 
             <!-- junit -->
